@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div className="bg-gradient-to-r from-pink-600 to-cyan-700 w-screen h-screen flex justify-center items-center">
-      <h1 className=" text-white text-4xl ">Um abraço do front com Vite, Tailwind e Docker!</h1>
+    <div className="bg-lightGray h-screen">
+      <button className="bg-primary text-lightGray3 text-xsmall-bold w-[158px] h-[40px] " >button</button>
 
     </div>
   )

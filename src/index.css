@@ -1,3 +1,83 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        font-family: theme('fontFamily.inter');
+    }
+}
+
+@layer components {
+    .title-large {
+        @apply text-4xl grayscale-darkGray tracking-["1px"];
+    }
+
+    .title-medium {
+        @apply text-3xl grayscale-darkGray tracking-["1px"];
+    }
+
+    .title-small {
+        @apply text-2xl grayscale-darkGray tracking-["1px"];
+    }
+
+    .title-xsmall {
+        @apply text-xl grayscale-darkGray tracking-["2px"];
+    }
+
+    .title-large-bold {
+        @apply text-4xl font-bold grayscale-darkGray tracking-["1px"];
+    }
+
+    .title-medium-bold {
+        @apply text-3xl font-bold grayscale-darkGray tracking-["1px"];
+    }
+
+    .title-small-bold {
+        @apply text-2xl font-bold grayscale-darkGray tracking-["1px"];
+    }
+
+    .title-xsmall-bold {
+        @apply text-xl font-bold grayscale-darkGray tracking-["2px"];
+    }
+
+    .text-large {
+        @apply text-lg grayscale-darkGray tracking-["0.75px"];
+    }
+
+    .text-medium {
+        @apply text-md grayscale-darkGray tracking-["0.75px"];
+    }
+
+    .text-small {
+        @apply text-sm grayscale-darkGray tracking-["0.75px"];
+    }
+
+    .text-xsmall {
+        @apply text-xs grayscale-darkGray tracking-["0.25px"];
+    }
+
+    .text-tiny {
+        @apply text-tiny grayscale-darkGray tracking-["0.5px"];
+    }
+
+    .text-large-bold {
+        @apply text-lg font-bold grayscale-darkGray tracking-["0.75px"];
+    }
+
+    .text-medium-bold {
+        @apply text-md font-bold grayscale-darkGray tracking-["0.75px"];
+    }
+
+    .text-small-bold {
+        @apply text-sm font-bold grayscale-darkGray tracking-["0.75px"];
+    }
+
+    .text-xsmall-bold {
+        @apply text-xs font-bold grayscale-darkGray tracking-["0.25px"];
+    }
+
+    .text-tiny-bold {
+        @apply text-tiny font-bold grayscale-darkGray tracking-["0.5px"];
+    }
+}
