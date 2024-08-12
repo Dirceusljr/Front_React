@@ -44,6 +44,9 @@ export default {
         "3xl": ["3rem", "50px"],
         "4xl": ["4rem", "66px"],
       },
+      boxShadow: {
+        'header': "0px 10px 30px 0px rgba(141, 114, 32, 0.05)"
+      }
     },
   },
   plugins: [],
