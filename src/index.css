@@ -10,94 +10,112 @@
 
 @layer components {
     .title-large {
-        @apply text-4xl text-darkGray tracking-["1px"];
+        @apply text-4xl text-darkGray;
+        letter-spacing: 1px;
     }
 
     .title-medium {
-        @apply text-3xl text-darkGray tracking-["1px"];
+        @apply text-3xl text-darkGray;
+        letter-spacing: 1px;
     }
 
     .title-small {
-        @apply text-2xl text-darkGray tracking-["1px"];
+        @apply text-2xl text-darkGray;
+        letter-spacing: 1px;
     }
 
     .title-xsmall {
-        @apply text-xl text-darkGray tracking-["2px"];
+        @apply text-xl text-darkGray;
+        letter-spacing: 2px;
     }
 
     .title-large-bold {
-        @apply text-4xl font-bold text-darkGray tracking-["1px"];
+        @apply text-4xl font-bold text-darkGray;
+        letter-spacing: 1px;
     }
 
     .title-medium-bold {
-        @apply text-3xl font-bold text-darkGray tracking-["1px"];
+        @apply text-3xl font-bold text-darkGray;
+        letter-spacing: 1px;
     }
 
     .title-small-bold {
-        @apply text-2xl font-bold text-darkGray tracking-["1px"];
+        @apply text-2xl font-bold text-darkGray;
+        letter-spacing: 1px;
     }
 
     .title-xsmall-bold {
-        @apply text-xl font-bold text-darkGray tracking-["2px"];
+        @apply text-xl font-bold text-darkGray;
+        letter-spacing: 2px;
     }
 
     .text-large {
-        @apply text-lg text-darkGray tracking-["0.75px"];
+        @apply text-lg text-darkGray;
+        letter-spacing: 0.75px;
     }
 
     .text-medium {
-        @apply text-md text-darkGray tracking-["0.75px"];
+        @apply text-md text-darkGray;
+        letter-spacing: 0.75px;
     }
 
     .text-small {
-        @apply text-sm text-darkGray tracking-["0.75px"];
+        @apply text-sm text-darkGray;
+        letter-spacing: 0.75px;
     }
 
     .text-xsmall {
-        @apply text-xs text-darkGray tracking-["0.25px"];
+        @apply text-xs text-darkGray;
+        letter-spacing: 0.25px;
     }
 
-    .text-tiny {
-        @apply text-tiny text-darkGray tracking-["0.5px"];
+    .text-xxsmall {
+        @apply text-tiny text-darkGray;
+        letter-spacing: 0.5px;
     }
 
     .text-large-bold {
-        @apply text-lg font-bold text-darkGray tracking-["0.75px"];
+        @apply text-lg font-bold text-darkGray;
+        letter-spacing: 0.75px;
     }
 
     .text-medium-bold {
-        @apply text-md font-bold text-darkGray tracking-["0.75px"];
+        @apply text-md font-bold text-darkGray;
+        letter-spacing: 0.75px;
     }
 
     .text-small-bold {
-        @apply text-sm font-bold text-darkGray tracking-["0.75px"];
+        @apply text-sm font-bold text-darkGray;
+        letter-spacing: 0.75px;
     }
 
     .text-xsmall-bold {
-        @apply text-xs font-bold text-darkGray tracking-["0.75px"];
+        @apply text-xs font-bold text-darkGray;
+        letter-spacing: 0.75px;
     }
 
-    .text-tiny-bold {
-        @apply text-tiny font-bold text-darkGray tracking-["0.5px"];
+    .text-xxsmall-bold {
+        @apply text-tiny font-bold text-darkGray;
+        letter-spacing: 0.5px;
     }
 
     .btn-primary {
-        @apply bg-primary text-lightGray3 text-xsmall-bold w-[158px] h-[40px] rounded-lg transition duration-0 ease-out hover:duration-300 hover:bg-terciary disabled:bg-lightGray2 disabled:text-lightGray3
+        @apply bg-primary text-lightGray3 text-xsmall-bold w-[158px] h-[40px] rounded-lg transition duration-0 ease-out hover:duration-300 hover:bg-terciary disabled:bg-lightGray2 disabled:text-lightGray3;
     }
 
     .btn-secondary {
-        @apply bg-lightGray3 text-primary text-xsmall-bold w-[158px] h-[40px] rounded-lg transition duration-0 ease-out hover:duration-300 hover:bg-secondary hover:text-[#F7F7FC] disabled:bg-white disabled:text-primary disabled:opacity-50 disabled:outline-primary disabled:outline-1 disabled:outline
+        @apply bg-lightGray3 text-primary text-xsmall-bold w-[158px] h-[40px] rounded-lg transition duration-0 ease-out hover:duration-300 hover:bg-secondary hover:text-[#F7F7FC] disabled:bg-white disabled:text-primary disabled:opacity-50 disabled:outline-primary disabled:outline-1 disabled:outline;
     }
 
     .btn-icon {
-        @apply bg-primary text-lightGray3 text-xsmall-bold w-[158px] h-[40px] rounded-lg transition duration-0 ease-out hover:duration-300 hover:bg-terciary disabled:bg-lightGray2 disabled:text-lightGray3
+        @apply bg-primary text-lightGray3 text-xsmall-bold w-[158px] h-[40px] rounded-lg transition duration-0 ease-out hover:duration-300 hover:bg-terciary disabled:bg-lightGray2 disabled:text-lightGray3;
     }
 
     .swiper-pagination-bullet {
         background-color: #666666; /* Cor padrão das bolinhas */
-      }
+    }
       
-      .swiper-pagination-bullet-active {
-        background-color: #C92071; /* Cor da bolinha ativa (azul) */
-      }
+    .swiper-pagination-bullet-active {
+        background-color: #C92071; /* Cor da bolinha ativa */
+    }
 }
