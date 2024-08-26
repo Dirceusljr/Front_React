@@ -4,7 +4,6 @@ import SearchBar from '../SearchBar'
 import Link from '../Link'
 import Button from '../Button'
 import cartIcon from '../../assets/Buy.png'
-import NavBar from '../Navbar'
 
 const Header = () => {
   return (
