@@ -1,4 +1,5 @@
 import React from "react";
+import Tag from "../../Tag";
 
 const Card = ({ id, title, price, discount, category, image }) => {
   return (
@@ -7,9 +8,7 @@ const Card = ({ id, title, price, discount, category, image }) => {
       key={id}
     >
       {discount !=0 && (
-        <div className="absolute top-5 left-5 bg-[#E7FF86] text-xsmall-bold px-[15px] py-[5px] rounded-[29px]">
-          {discount} OFF
-        </div>
+        <Tag>{discount}</Tag>
       )}
       <div className="w-full rounded-[4px] bg-white shadow-card flex justify-center mb-[18px]">
         <img src={image} className="max-h-52" />
