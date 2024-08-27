@@ -2,6 +2,7 @@ import Carousel from "./components/Carousel"
 import Header from "./components/Header"
 import NavBar from "./components/Navbar"
 import CarList from "./components/CardList"
+import HighlightCollection from "./components/HighlightCollection"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <NavBar />
       <Carousel />
+      <HighlightCollection />
       <CarList />
     </div>
   )
