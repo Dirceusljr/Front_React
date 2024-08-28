@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getProducts } from "../../services/products";
 import Card from "./Card";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline"
