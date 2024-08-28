@@ -3,6 +3,8 @@ import Header from "./components/Header"
 import NavBar from "./components/Navbar"
 import CarList from "./components/CardList"
 import HighlightCollection from "./components/HighlightCollection"
+import SpecialOffer from "./components/SpecialOffer"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
       <Carousel />
       <HighlightCollection />
       <CarList />
+      <SpecialOffer />
+      <Footer />
     </div>
   )
 }
