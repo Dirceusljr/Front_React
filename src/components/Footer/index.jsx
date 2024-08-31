@@ -56,7 +56,8 @@ const Footer = () => {
         </p>
         <p>(85) 3051-3411</p>
       </div>
-      <p className="col-span-4 text-center mt-[34px] border-t border-t-darkGray2 py-[22px] text-xsmall text-white">@ 2022 Digital College</p>
+      <p className="col-span-4 text-center mt-[34px] border-t border-t-darkGray2 pt-[22px] text-xsmall text-white">@ 2024 Digital College - Feito pelos Guerreiros da FS27</p>
+      <a href="https://github.com/orgs/Digital-FS27/repositories" target="_blank" className="col-span-4 text-center pb-[22px] text-xsmall text-white hover:underline">GitHub do Projeto</a>
     </footer>
   );
 };
