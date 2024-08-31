@@ -12,6 +12,8 @@ const CarList = () => {
     return setProducts(response.content);
   };
 
+  
+
   useEffect(() => {
     getAllProducts();
   }, []);
