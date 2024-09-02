@@ -3,7 +3,8 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx}",
-  ],
+    ],
+    mode: 'jit',
   theme: {
     extend: {
       colors: {
@@ -45,10 +46,12 @@ export default {
         "4xl": ["4rem", "66px"],
       },
       boxShadow: {
-        'header': "0px 10px 30px 0px rgba(141, 114, 32, 0.05)"
+        'header': "0px 10px 30px 0px rgba(141, 114, 32, 0.05)",
+        'card': "6px 16px 30px 0px rgba(105, 98, 98, 0.05)",
+        'cardHover': "4px 10px 10px rgba(0, 0, 0, 0.4)",
       }
     },
   },
-  plugins: [],
+  plugins: []
 }
 
