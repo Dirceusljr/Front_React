@@ -5,6 +5,9 @@ import Pants from "../../assets/collections/Pants";
 import Sneakers from "../../assets/collections/Sneakers";
 import Tshirt from "../../assets/collections/Tshirt";
 import Cap from "../../assets/collections/Cap";
+import Supreme from '/supreme.png';
+import Adidas from '/adidas.png';
+import Beats from '/beats.png'
 
 const highlightCategory = [
   {
@@ -30,19 +33,19 @@ const highlightCategory = [
 ];
 
 const hightlightCollectionList = [{
-  discount: "30%",
+  discount: "30",
   title: "Novo drop Supreme",
-  img: "https://picsum.photos/350/250",
+  img: Supreme,
 },
 {
-  discount: "30%",
+  discount: "30",
   title: "Coleção Adidas",
-  img: "https://picsum.photos/350/250",
+  img: Adidas,
 },
 {
-  discount: "30%",
+  discount: "30",
   title: "Novo Beats Bass",
-  img: "https://picsum.photos/350/250",
+  img: Beats,
 }]
 
 const HighlightCollection = () => {

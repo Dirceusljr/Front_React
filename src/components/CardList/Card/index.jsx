@@ -11,7 +11,7 @@ const Card = ({ id, title, price, discount, category, image }) => {
 
   return (
     <div
-      className="flex flex-col rounded-sm max-w-[292px] w-full h-full relative justify-between hover:shadow-cardHover transition-shadow cursor-pointer p-2"
+      className="flex flex-col rounded-2xl max-w-[292px] w-full h-full relative justify-between hover:shadow-cardHover transition-shadow cursor-pointer p-2"
       key={id}
     >
       {discount != 0 && <Tag>{discount}</Tag>}

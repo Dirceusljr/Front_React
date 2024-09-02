@@ -11,7 +11,7 @@ const CollectionCard = ({ discount, title, img}) => {
             <Button color='btn-secondary'>Comprar</Button>
         </div>
         <div
-        className='absolute right-[-215px] bottom-[-115px] rotate-[-20deg]'
+        className='absolute right-[-150px] bottom-[-50px] rotate-[-20deg]'
         style={{ backgroundImage: `url(${img})`, width: '350px', height: '250px', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}
       >
             <span className='sr-only'>{title}</span>
