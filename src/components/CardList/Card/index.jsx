@@ -7,8 +7,6 @@ const Card = ({ id, title, price, discount, category, image }) => {
   
   const discountFormatted = currencyFormat.format(price*(1-(discount/100))/100);
 
-  console.log(priceFormatted, discountFormatted);
-
   return (
     <div
       className="flex flex-col rounded-2xl max-w-[292px] w-full h-full relative justify-between hover:shadow-cardHover transition-shadow cursor-pointer p-2"
