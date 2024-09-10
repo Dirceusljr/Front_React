@@ -13,17 +13,17 @@ const Footer = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 items-center">
           <div>
-            <img src={Facebook} className="size-5" />
+            <img src={Facebook} className="size-5 cursor-pointer" />
             <span className="sr-only">Logo do Facebook</span>
           </div>
           <div>
-            <img src={Instagram} className="size-5" />
+            <img src={Instagram} className="size-7 cursor-pointer" />
             <span className="sr-only">Logo do Instagram</span>
           </div>
           <div>
-            <img src={Twitter}  className="size-5"/>
+            <img src={Twitter}  className="size-5 cursor-pointer"/>
             <span className="sr-only">Logo do Twitter</span>
           </div>
         </div>
@@ -31,22 +31,22 @@ const Footer = () => {
       <div className="ml-[100px]">
         <h5 className="text-medium-bold text-white mb-[28px]">Informação</h5>
         <ul>
-          <li className="text-small text-white">Sobre Drip Store</li>
-          <li className="text-small text-white">Segurança</li>
-          <li className="text-small text-white">Wishlist</li>
-          <li className="text-small text-white">Blog</li>
-          <li className="text-small text-white">Trabalhe conosco</li>
-          <li className="text-small text-white">Meus Pedidos</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Sobre Drip Store</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Segurança</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Wishlist</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Blog</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Trabalhe conosco</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Meus Pedidos</li>
         </ul>
       </div>
       <div className="ml-[50px]">
         <h5 className="text-medium-bold text-white mb-[28px]">Categorias</h5>
         <ul>
-          <li className="text-small text-white">Camisetas</li>
-          <li className="text-small text-white">Calças</li>
-          <li className="text-small text-white">Bonés</li>
-          <li className="text-small text-white">Headphones</li>
-          <li className="text-small text-white">Tênis</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Camisetas</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Calças</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Bonés</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Headphones</li>
+          <li className="text-small cursor-pointer hover:underline text-white">Tênis</li>
         </ul>
       </div>
       <div>
