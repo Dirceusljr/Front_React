@@ -25,8 +25,11 @@ const CardList = () => {
       {isLoading ? (<Spinner />) : (<section className="w-full px-[100px] py-[60px] bg-[#F9F8FE]">
         <div className="flex justify-between items-center">
           <h3 className="text-large-bold mb-5">Produtos em alta</h3>
-          <p className="cursor-pointer text-medium text-primary flex items-center gap-x-2 hover:underline" onClick={() => setFilteredProducts([])}>
+          {/* <p className="cursor-pointer text-medium text-primary flex items-center gap-x-2 hover:underline" onClick={() => setFilteredProducts([])}>
             Ver todos <span>{<ArrowLongRightIcon className="size-4" />}</span>
+          </p> */}
+          <p className="cursor-pointer text-medium text-primary flex items-center gap-x-2 hover:underline" onClick={() => setFilteredProducts([])}>
+            Ver todos
           </p>
         </div>
         <div className="grid grid-cols-4 gap-x-6 gap-y-10">
